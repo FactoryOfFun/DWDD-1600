@@ -1,0 +1,55 @@
+body {
+    font-family: "Oxygen", sans-serif;
+    margin: 0;
+}
+
+/*header stuff here*/
+header {
+    background-color: #eaeaea;
+    padding: lrem 10px;
+}
+header span {
+    color: #024873;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+/* anvigaitonasfd faslkewok*/
+nav {
+    background-color: #f2b705;
+}
+nav.ul {
+    margin: 0;
+    padding: 0 10px;
+    list-style-type: none;
+    display: flex;
+}
+nav a {
+    display: block;
+    padding: .83rem lrem;
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: #024873;
+    font-weight: 700;
+}
+nav li.active a {
+    background-color:#024873;
+    color: #f2b705;
+
+}
+nav li a:hover {
+    color: white;
+}
+
+/* footer*/
+footer {
+    background-color: #eaeaea;
+    text-align: center;
+    padding: lrem 0; 
+}
+footer p {
+    margin: 0;
+    font-size: .8rem;
+    color: #333;
+    letter-spacing: 3px;
+}
